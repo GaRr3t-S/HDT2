@@ -12,7 +12,7 @@ public class PostfixEvaluator {
             while (scanner.hasNextLine()) {
                 String expression = scanner.nextLine();
                 int result = evaluatePostfix(expression);
-                System.out.println("Resultado" + result);  
+                System.out.println("Resultado: " + result);  
 
             }
             scanner.close();
